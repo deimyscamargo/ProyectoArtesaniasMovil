@@ -12,3 +12,8 @@ namespace BasesDeDatosLocales
         
     }
 }
+
+/*
+git add BasesDeDatosLocales/BasesDeDatosLocales/paginaFotoP.xaml
+git add BasesDeDatosLocales/BasesDeDatosLocales/paginaFotoP.xaml.cs
+*/
