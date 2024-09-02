@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.register2">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame CornerRadius="15" BorderColor="#007acc" Margin="20" Padding="20">
+                <StackLayout >
+                    <Label Text="Registrate" FontSize="40" HorizontalOptions="Center" TextColor="#4F4A45" Margin="0,0,0,28"/>
+                    <Label Text="Rol" FontSize="20" HorizontalOptions="StartAndExpand" TextColor="#4F4A45" Margin="0,0,0,0"/>
+                    <Picker Title="Escoge tu rol" x:Name="tipo"  Grid.Column="0" HorizontalOptions="StartAndExpand" >
+                        <Picker.Items>
+                            <x:String>Artesano</x:String>
+                            <x:String>Cliente</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+
+                    <Label Text="Usuario" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu usuario" x:Name="usuario"  Margin="0,0,0,10"/>
+
+                    <Label Text="Contraseña" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu contraseña" x:Name="contrasena"  IsPassword="True"  Margin="0,0,0,10"/>
+                    <Label Text="Confirma"  TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Confirma tu contraseña" IsPassword="True"  Margin="0,0,0,10"/>
+                    <Button Clicked="Registrar" Text="Registrar"  BackgroundColor="#4F4A45" TextColor="White" CornerRadius="15"/>
+                    <Label></Label>
+ 
+
+                    <Label></Label>
+                    <Button  Text="Atras"  Clicked="Atras" Grid.Column="0" BackgroundColor="White" CornerRadius="15" BorderColor="Black" BorderWidth="2"  HorizontalOptions="CenterAndExpand"   HeightRequest="40" />
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

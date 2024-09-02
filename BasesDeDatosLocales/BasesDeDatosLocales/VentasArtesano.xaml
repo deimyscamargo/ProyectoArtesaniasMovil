@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="BasesDeDatosLocales.VentasArtesano">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid Margin="0,0,0,50">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="1" Text="Ventas" FontSize="30" TextColor="#3A3A3A" FontAttributes="Bold" Margin="0,50,0,0" HorizontalTextAlignment="Center"  />
+                    <Button ImageSource="usuariop.png" Margin="0,50,-20,0" Clicked="IrIniciodeSesion"  BackgroundColor="Transparent"  Grid.Column="2"  HorizontalOptions="StartAndExpand"  WidthRequest="30"  HeightRequest="0" />
+
+                </Grid>
+
+
+                <forms:ChartView x:Name="barChart" HeightRequest="200" WidthRequest="100" />
+
+                <Grid Margin="0,40,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <!-- Primera fila para el primer Label -->
+                        <RowDefinition Height="Auto" />
+                        <!-- Segunda fila para el segundo Label -->
+                        <RowDefinition Height="Auto" />
+                        <!-- Tercera fila para los subtítulos -->
+                    </Grid.RowDefinitions>
+
+                    <Label Text="Resumen de ventas" FontSize="20" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+
+                    <Label Grid.Row="1" Text="20 productos publicados" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+
+                    <!-- Subtítulos centrados en la tercera fila del Grid -->
+                    <Label Grid.Row="2" Text="15 productos vendidos" HorizontalOptions="CenterAndExpand" />
+                    <Label Grid.Row="3" Text="COP 200.000$ Ganancias" HorizontalOptions="CenterAndExpand" />
+
+                    <!--aqui-->
+                    <StackLayout Grid.Row="4" Margin="0,0,0,-80">
+                        <Image x:Name="imagenPrincipal" Aspect="AspectFit"  WidthRequest="100" HeightRequest="100"/>
+                        <StackLayout Orientation="Horizontal" >
+                            <ImageButton Source="ade.png" Clicked="AnteriorClick" HorizontalOptions="End" Margin="100, 0, 300, 50"/>
+                            <ImageButton Source="atra.png" Clicked="SiguienteClick" HorizontalOptions="Start" Margin="-70, 0, 0, 50"/>
+                        </StackLayout>
+                    </StackLayout>
+
+
+                    <!--hasta aqui-->
+                    <Label Margin="0,0,0,-60" Grid.Row="6" Text="COP 1.500.000$ Ganancias totales" HorizontalOptions="CenterAndExpand" />
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

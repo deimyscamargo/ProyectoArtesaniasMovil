@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.Login">
+    <ContentPage.Content>
+        <Frame CornerRadius="10" BackgroundColor="#FFFFFF"  BorderColor="White" Margin="20" Padding="20">
+            <StackLayout>
+                <Label Text="Ingresa" TextColor="#4F4A45" HorizontalOptions="CenterAndExpand" FontSize="30"  ></Label>
+                <Label Text="Usuario" TextColor="#4F4A45" HorizontalOptions="StartAndExpand" FontSize="20"></Label>
+                <Entry Placeholder="Ingresa tu usuario" Keyboard="Email" Margin="0,10,0,10" BackgroundColor="White" HeightRequest="60" x:Name="txtUsuario" />
+                <Label Text="Contraseña" TextColor="#4F4A45" HorizontalOptions="StartAndExpand" FontSize="20"></Label>
+                <Entry Placeholder="Ingresa tu contraseña" IsPassword="True" Margin="0,10,0,10" BackgroundColor="White" HeightRequest="60" x:Name="txtPassword" />
+                <Label Text="¿Olvidaste tu contraseña?" HorizontalOptions="EndAndExpand" TextColor="#A9A9A9" FontAttributes="Bold" Margin="0,20,0,0"></Label>
+                <Button Text="Iniciar Sesión"  Clicked="OnLoginClicked"  BackgroundColor="#4F4A45" TextColor="White" HeightRequest="40"  />
+                <Label>
+                </Label>
+                <Label Text="---------- O inicia sesion con----------" FontSize="Medium" HorizontalOptions="CenterAndExpand"></Label>
+
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button ImageSource="google"  Clicked="Noexist1" Grid.Column="0"  BackgroundColor="White" HorizontalOptions="StartAndExpand"   HeightRequest="10" />
+
+                    <Button ImageSource="facebook"  Clicked="Noexist2" Grid.Column="1"  BackgroundColor="White" HorizontalOptions="EndAndExpand"   HeightRequest="10" />
+                </Grid>
+
+                    <Label Text="¿Aun no tienes una cuenta?" HorizontalOptions="CenterAndExpand" TextColor="#007acc" FontAttributes="Bold" Margin="0,20,0,0">
+                        <Label.GestureRecognizers>
+                        <TapGestureRecognizer  Tapped="OnRegisterTapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                <Button Text="Registrate"  Clicked="OnRegisterTapped"  BackgroundColor="#A9A9A9" TextColor="White" HeightRequest="40"  />
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,95 @@
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.deps.json
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\ref\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.AssemblyReference.cache
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfoInputs.cache
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfo.cs
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.CoreCompileInputs.cache
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\refint\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\SEMESTRES 6\MOVIL\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.deps.json
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\ref\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.AssemblyReference.cache
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfoInputs.cache
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfo.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.CoreCompileInputs.cache
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\refint\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\TodosView.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MostrarTodosApi.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Desktop\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.deps.json
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\ref\BasesDeDatosLocales.dll
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.AssemblyReference.cache
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MostrarTodosApi.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\TodosView.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfoInputs.cache
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfo.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.CoreCompileInputs.cache
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\refint\BasesDeDatosLocales.dll
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\register2.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Factura.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Carrito.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Artesanias.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\CrearArtesania.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainArtesano.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\PRODUCTO.xaml.g.cs
+C:\Users\jesus\OneDrive\Documentos\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Tutoriales.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.AssemblyReference.cache
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Artesanias.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Carrito.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\CrearArtesania.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Factura.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainArtesano.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\MostrarTodosApi.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\PRODUCTO.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\register2.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\RegisterPage.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\TodosView.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\Tutoriales.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfoInputs.cache
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.AssemblyInfo.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.csproj.CoreCompileInputs.cache
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\refint\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.deps.json
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\ref\BasesDeDatosLocales.dll
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\bin\Debug\netstandard2.0\BasesDeDatosLocales.pdb
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\ListaArtesanias.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\VentasArtesano.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\ProductExtendido.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\ProbandoFoto.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\SubirVideos.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\ProductDetailedView.xaml.g.cs
+C:\Users\DEIMYS CAMARGO\Documents\BasesDeDatosLocales\BasesDeDatosLocales\BasesDeDatosLocales\obj\Debug\netstandard2.0\paginaFotoP.xaml.g.cs

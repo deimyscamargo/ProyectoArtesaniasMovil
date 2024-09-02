@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.ProductExtendido">
+    <ScrollView>
+        <StackLayout>
+            <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+
+                        <ColumnDefinition Width="*" />
+
+                        <ColumnDefinition Width="Auto" />
+
+                    </Grid.ColumnDefinitions>
+
+
+                    <Image Source="ham.png" WidthRequest="30" HeightRequest="30" VerticalOptions="CenterAndExpand" Margin="10,0,0,0">
+                    </Image>
+
+
+                    <Label Grid.Column="1" Text="Productos" FontSize="30" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+
+
+                    <StackLayout Grid.Column="2" Orientation="Horizontal" HorizontalOptions="End">
+                        <Image Source="cart.png" WidthRequest="30" HeightRequest="30" VerticalOptions="CenterAndExpand" Margin="0,0,10,0">
+                        </Image>
+                        <Image Source="user.png" WidthRequest="30" HeightRequest="30" VerticalOptions="CenterAndExpand">
+                        </Image>
+                    </StackLayout>
+                </Grid>
+            </Frame>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <Label Text="Manillas" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand" Margin="10,0,0,10"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Spacing="250">
+                <Label Text="04 Productos" FontSize="15" TextColor="Gray" VerticalOptions="CenterAndExpand" Margin="10,0,0,0"/>
+                <Label Text="Filtros 🔎" FontSize="15" TextColor="Black" VerticalOptions="CenterAndExpand" Margin="10,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20" Margin="50,30,0,0">
+                <!-- Primer producto -->
+                <StackLayout>
+                    <Image Source="manilla.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 1" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $10.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Segundo producto -->
+                <StackLayout>
+                    <Image Source="manilla.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 2" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $15.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="20" Margin="50,30,0,0">
+                <!-- Tercer producto -->
+                <StackLayout>
+                    <Image Source="manilla.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 3" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $20.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Cuarto producto -->
+                <StackLayout>
+                    <Image Source="manilla.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 4" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $25.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                <Label Text="Sombreros" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand" Margin="10,30,0,10"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Spacing="250">
+                <Label Text="04 Productos" FontSize="15" TextColor="Gray" VerticalOptions="CenterAndExpand" Margin="10,0,0,0"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20" Margin="50,30,0,0">
+                <!-- Primer producto -->
+                <StackLayout>
+                    <Image Source="sombrero.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 1" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $10.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Segundo producto -->
+                <StackLayout>
+                    <Image Source="sombrero.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 2" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $15.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="20" Margin="50,30,0,0">
+                <!-- Tercer producto -->
+                <StackLayout>
+                    <Image Source="sombrero.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 3" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $20.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+
+                <!-- Cuarto producto -->
+                <StackLayout>
+                    <Image Source="sombrero.jpg" Aspect="AspectFill" WidthRequest="150" HeightRequest="220" />
+                    <Label Text="Nombre del Producto 4" FontSize="14" HorizontalOptions="Center" />
+                    <Label Text="Precio: $25.00" FontSize="12" HorizontalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

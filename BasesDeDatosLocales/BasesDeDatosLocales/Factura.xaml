@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.Factura">
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame CornerRadius="15" BorderColor="#007acc" Margin="20" Padding="20">
+                <StackLayout >
+                    <Label Text="Facturacion" FontSize="40" HorizontalOptions="Center" TextColor="#4F4A45" Margin="0,0,0,28"/>
+                    <Label Text="Cuenta"  FontSize="20" HorizontalOptions="StartAndExpand" TextColor="#4F4A45" Margin="0,0,0,0"/>
+
+                    <Picker Title="Tipo de cuenta" x:Name="TipoCuenta"   HorizontalOptions="StartAndExpand" >
+                        <Picker.Items>
+                        </Picker.Items>
+                    </Picker>
+
+                    <Label Text="Numero de cuenta" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu numero de cuenta" x:Name="NumCuenta" Grid.Column="1"  Margin="0,0,0,0"/>
+
+                    <Label Text="Nombre del titular" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu el nombre del titular" x:Name="NameTitular" Margin="0,0,0,10"/>
+
+                    <Label Text="Fecha de vencimiento" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa la fecha de vencimiento" x:Name="FehcaVencimiento" Margin="0,0,0,10"/>
+
+                    <Label Text="Codigo de seguridad" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu CVC"  x:Name="CodigoSeguridad" Margin="0,0,0,10"/>
+
+
+                    <Label Text="Total: COP 400000$" HorizontalOptions="CenterAndExpand" TextColor="#4F4A45" FontSize="25"></Label>
+                    <Button HorizontalOptions="CenterAndExpand" Text="Realizar Pago" BackgroundColor="#4F4A45" Clicked="Pagar" TextColor="White" CornerRadius="15"></Button>
+
+
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

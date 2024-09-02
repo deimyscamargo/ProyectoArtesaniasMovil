@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.TodosView">
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView x:Name="listadoProductos">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="*,*,*">
+
+                            <Label Text="{Binding _id}" Grid.Column="0"  />
+
+
+                            <Label Text="{Binding nombre}" Grid.Column="1"/>
+
+                            <Label Text="{Binding descripcion}" Grid.Column="2"/>
+
+                            <Label Text="{Binding precio}" Grid.Column="3"/>
+
+                            <Label Text="{Binding stock}" Grid.Column="4"/>
+
+                            <Label Text="{Binding valorCompra}" Grid.Column="5"/>
+
+                            <Label Text="{Binding valorVenta}" Grid.Column="6"/>
+
+
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

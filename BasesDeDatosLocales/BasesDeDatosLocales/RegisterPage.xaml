@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.RegisterPage">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <Frame CornerRadius="15" BorderColor="#007acc" Margin="20" Padding="20">
+                <StackLayout >
+                    <Label Text="Registrate" FontSize="40" HorizontalOptions="Center" TextColor="#4F4A45" Margin="0,0,0,28"/>
+                    <Label Text="Identificacion" FontSize="20" HorizontalOptions="StartAndExpand" TextColor="#4F4A45" Margin="0,0,0,0"/>
+                    <StackLayout >
+  
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Picker Title="Tipo de ID" x:Name="tipo_id"  Grid.Column="0" HorizontalOptions="StartAndExpand" >
+                                <Picker.Items>
+                                    <x:String>CC</x:String>
+                                    <x:String>CE</x:String>
+                                    <x:String>TI</x:String>
+                                    <x:String>PAS</x:String>
+                                </Picker.Items>
+                            </Picker>
+
+                            <Entry Placeholder="Digita tu id" x:Name="_id" Grid.Column="1" HorizontalOptions="CenterAndExpand" Margin="0,0,0,0"/>
+                        </Grid>
+                    </StackLayout>
+
+                    <Label Text="Nombre completo" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu nombre" x:Name="primer_nombre" Margin="0,0,0,10"/>
+
+                    <Label Text="Fecha de nacimiento" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Fecha de Nacimiento" x:Name="fecha_nacimiento" Margin="0,0,0,10"/>
+
+                    <Label Text="Dirección" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu dirección de residencia" x:Name="direccion" Margin="0,0,0,10"/>
+
+                    <Label Text="Numero de telefono" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu numero de teléfono" Keyboard="Telephone" x:Name="telefono" Margin="0,0,0,10"/>
+
+                    <Label Text="Correo" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingresa tu correo electronico" Keyboard="Email" x:Name="correo" Margin="0,0,0,20"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Text="Atras"  Clicked="Atras" Grid.Column="0" BackgroundColor="white" TextColor="Black"   HorizontalOptions="StartAndExpand" BorderColor="Black" BorderWidth="2"  HeightRequest="35" CornerRadius="15" />
+
+                        <Button Text="Siguiente"  Clicked="Siguiente" Grid.Column="1"  BackgroundColor="white" TextColor="Black" HorizontalOptions="EndAndExpand" BorderColor="Black" BorderWidth="2"  HeightRequest="35" CornerRadius="15" />
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.ListaArtesanias">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button ImageSource="flechaAdelante" Margin="0,50,0,0" Grid.Row="0"  Clicked="IraCrearArtesanias" BackgroundColor="Transparent"     WidthRequest="30"  HeightRequest="0" />
+
+                    <Button ImageSource="videos" Margin="0,50,0,0" Grid.Row="0"  Clicked="IrSubirVideos" BackgroundColor="Transparent"     WidthRequest="30"  HeightRequest="0" />
+                    <Label Grid.Column="1" Text="Productos" TextColor="#3A3A3A" FontAttributes="Bold" Margin="0,50,0,-100" HorizontalTextAlignment="Center" FontSize="22" />
+
+                    <Button ImageSource="graficoc" Margin="90,50,0,0" Clicked="MiBoton_Clicked"  BackgroundColor="Transparent"  Grid.Column="2"  HorizontalOptions="StartAndExpand"  WidthRequest="30"  HeightRequest="0" />
+
+                    <Button ImageSource="usuariop" Margin="-5,50,0,0"    BackgroundColor="Transparent"  Grid.Column="3"  Clicked="IrIniciodeSesion"   WidthRequest="30" HeightRequest="40" />
+                    
+                </Grid>
+
+                <Frame  x:Name="miFrame"  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"  Margin="0,35,0,0" >
+
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="0" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-10,-10,0"  />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="0" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-15,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="1" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-10,-10,0"/>
+                    </Grid>
+                </Frame>
+
+                <Frame  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"
+                     Margin="0,35,0,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="1" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-15,-10,0" />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="1" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-20,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="2" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="1" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-15,-10,0"/>
+                    </Grid>
+                </Frame>
+                <Frame  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"
+         Margin="0,35,0,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="2" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-22,-10,0" />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="2" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-30,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="3" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-22,-10,0"/>
+                    </Grid>
+                </Frame>
+                <Frame  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"
+Margin="0,35,0,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="2" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-22,-10,0" />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="2" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-30,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="3" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-22,-10,0"/>
+                    </Grid>
+                </Frame>
+
+                <Frame  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"
+Margin="0,35,0,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="2" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-22,-10,0" />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="2" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-30,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="3" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-22,-10,0"/>
+                    </Grid>
+                </Frame>
+                <Frame  HorizontalOptions="Center" CornerRadius="10" BackgroundColor="White" BorderColor="#3A3A3A" HeightRequest="30" WidthRequest="400"
+Margin="0,35,0,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Icono a la izquierda -->
+                        <Image Grid.Row="2" Grid.Column="0" Source="artesania2.png" WidthRequest="50" HeightRequest="50"  Margin="0,-22,-10,0" />
+
+                        <!-- Texto en el centro -->
+                        <Label Grid.Row="2" Grid.Column="1" Text="Artesania de Sampues" FontAttributes="Bold" Margin="15,-30,0,0" FontSize="20" />
+
+                        <!-- Subtítulo debajo del texto -->
+                        <Label Grid.Row="3" Grid.Column="1" Text="Stock: 30 Und" TextColor="Gray" Margin="15,-28,0,0" FontSize="16" />
+
+                        <!-- Imagen a la derecha -->
+                        <Image Grid.Row="2" Grid.RowSpan="2" Grid.Column="2" Source="borrar.png" WidthRequest="30" HeightRequest="30" Margin="0,-22,-10,0"/>
+                    </Grid>
+                </Frame>
+            
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

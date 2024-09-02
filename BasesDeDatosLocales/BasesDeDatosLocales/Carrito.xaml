@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.Carrito">
+    <ContentPage.Content>
+        <Frame CornerRadius="10" BorderColor="White" Margin="10" Padding="20">
+            <StackLayout>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Image Source="ham.png" WidthRequest="30" Grid.Column="0" HeightRequest="20" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Margin="10,0,0,0">
+                    </Image>
+
+                    <Label Text="Carrito" TextColor="#4F4A45" Grid.Column="1" HorizontalOptions="CenterAndExpand" FontSize="30" Margin="0,0,0,0"  ></Label>
+
+                    <Image Source="user.png" WidthRequest="30" Grid.Column="2" HeightRequest="25" HorizontalOptions="EndAndExpand"   Margin="10,0,0,0">
+                    </Image>
+
+
+                </Grid>
+
+
+                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="50" Margin="0,0,0,80">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="30"  Grid.Row="4">
+                        <StackLayout Margin="0,-100,0,0">
+                            <Frame CornerRadius="10" BackgroundColor="White" Padding="5">
+                                <Image Source="slider1" Aspect="AspectFill" HeightRequest="200" WidthRequest="140" />
+                            </Frame>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+
+
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="$100.000" TextColor="#4F4A45" Grid.Column="1" HorizontalOptions="End" FontSize="17"></Label>
+                                <Label Text="4 Und" FontSize="17" HorizontalOptions="Start" VerticalOptions="Center" TextColor="#4F4A45"></Label>
+                            </Grid>
+
+
+                        </StackLayout>
+
+                        <StackLayout Margin="0,-100,0,0" >
+                            <Frame CornerRadius="10" BackgroundColor="White" Padding="5">
+                                <Image Source="hamacas1" Aspect="AspectFill" HeightRequest="200" WidthRequest="140"/>
+                            </Frame>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+
+
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="$100.000" TextColor="#4F4A45" Grid.Column="1" HorizontalOptions="End" FontSize="17"></Label>
+                                <Label Text="4 Und" FontSize="17" HorizontalOptions="Start" TextColor="#4F4A45"></Label>
+                            </Grid>
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="50" Margin="0,0,0,30">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="30"  Grid.Row="4">
+                        <StackLayout Margin="0,-150,0,0">
+                            <Frame CornerRadius="10" BackgroundColor="White" Padding="5">
+                                <Image Source="artesania.png" Aspect="AspectFill" HeightRequest="200" WidthRequest="140" />
+                            </Frame>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+
+
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="$100.000" TextColor="#4F4A45" Grid.Column="1" HorizontalOptions="End" FontSize="17"></Label>
+                                <Label Text="4 Und" FontSize="17" HorizontalOptions="Start" TextColor="#4F4A45"></Label>
+                            </Grid>
+                        </StackLayout>
+
+                        <StackLayout Margin="0,-150,0,0" >
+                            <Frame CornerRadius="10" BackgroundColor="White" Padding="5">
+                                <Image Source="artesania.png" Aspect="AspectFill" HeightRequest="200" WidthRequest="140"/>
+                            </Frame>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+
+
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="$100.000" TextColor="#4F4A45" Grid.Column="1" HorizontalOptions="End" FontSize="17"></Label>
+                                <Label Text="4 Und" FontSize="17" HorizontalOptions="Start" TextColor="#4F4A45"></Label>
+                            </Grid>
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                </StackLayout>
+
+                <Label Text="Total: COP 400000$" HorizontalOptions="CenterAndExpand"  FontSize="20" TextColor="#4F4A45"></Label>
+
+                <Button HorizontalOptions="CenterAndExpand" Clicked="Pagar"  Text="Pagar total" BackgroundColor="#4F4A45" TextColor="White" CornerRadius="15"></Button>
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.ProductDetailedView">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame BackgroundColor="White" Padding="24" CornerRadius="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+
+                            <ColumnDefinition Width="*" />
+
+                            <ColumnDefinition Width="Auto" />
+
+                        </Grid.ColumnDefinitions>
+
+
+                        <Image Source="leftplay.png" WidthRequest="15" HeightRequest="15" VerticalOptions="CenterAndExpand" Margin="10,0,0,0">
+                        </Image>
+
+
+                        <Label Grid.Column="1" Text="Producto" FontSize="30" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+
+
+                        <StackLayout Grid.Column="2" Orientation="Horizontal" HorizontalOptions="End">
+                            <Image Source="cart.png" WidthRequest="30" HeightRequest="30" VerticalOptions="CenterAndExpand" Margin="0,0,10,0">
+                            </Image>
+                            <Image Source="user.png" WidthRequest="30" HeightRequest="30" VerticalOptions="CenterAndExpand">
+                            </Image>
+                        </StackLayout>
+                    </Grid>
+                </Frame>
+
+                <StackLayout>
+                    <Frame CornerRadius="10" BackgroundColor="White" Padding="5">
+                        <Image Aspect="AspectFill" HeightRequest="220" WidthRequest="50" Source="sombrero.png"/>
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Margin="15,0,0,0">
+                        <Label Text="Sombrero Personalizado" FontSize="20" TextColor="Black" VerticalOptions="CenterAndExpand" Margin="0,0,0,0"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Margin="15,0,0,0">
+                        <Label Text="Sombrero Morroano" FontSize="15" TextColor="Gray" VerticalOptions="CenterAndExpand" Margin="0,0,0,15"/>
+                    </StackLayout>
+                    <Label Margin="15,0,0,0" FontSize="15" TextColor="Black" Text="Descripción: There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable." />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,30,0,0" Spacing="130">
+                    <Label FontSize="18" TextColor="Black" Text="COP 10.000.000💲"  Margin="15,0,0,0"/>
+                    <Label FontSize="18" TextColor="Black" Text="STOCK: 10 🔛" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,30,0,20" Spacing="150">
+                    <Label FontSize="12" TextColor="Black" Text="Envío: Nacional - Gratis 🚚"  Margin="15,0,0,0"/>
+                    <Label FontSize="12" TextColor="Black" Text="Deimys Camargo 👤" />
+                </StackLayout>
+
+                <StackLayout >
+                    <!-- Botón de decremento/incremento -->
+                    <Frame BackgroundColor="White" BorderColor="Black" CornerRadius="5" Padding="3"     Margin="50,20,50,20" >
+                        <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal" Margin="0,0,0,0" Spacing="10">
+                            <Frame Padding="0" CornerRadius="5">
+                                <Button Text="-" FontSize="18" TextColor="Black" BackgroundColor="Transparent" Clicked="OnDecrementClicked"/>
+                            </Frame>
+                            <Label x:Name="QuantityLabel" Text="10" FontSize="18" TextColor="Black" VerticalOptions="CenterAndExpand" />
+                            <Frame Padding="0" CornerRadius="5">
+                                <Button Text="+" FontSize="18" TextColor="Black" BackgroundColor="Transparent" Clicked="OnIncrementClicked" />
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <!-- Botón negro con texto blanco (sin acción) -->
+                    <Button BackgroundColor="Black" Text="Agregar al carrito 🛒" Clicked="Carrito" TextColor="White" CornerRadius="5" Margin="50,0,50,20" />
+
+                    <!-- Botón negro con texto blanco (sin acción) -->
+                    <Button BackgroundColor="Black" Text="Comprar ahora 🔅" Clicked="Factura" TextColor="White" CornerRadius="5" Margin="50,0,50,20" />
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

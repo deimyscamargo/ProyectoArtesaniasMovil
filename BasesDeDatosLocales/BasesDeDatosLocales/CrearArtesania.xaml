@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BasesDeDatosLocales.CrearArtesania">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Frame CornerRadius="15" BorderColor="White" Margin="20" Padding="20">
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="Productos" TextColor="Black" FontAttributes="Bold" FontSize="30"></Label>
+
+                        <Image Source="borrar.png"
+                           WidthRequest="32"
+                           HeightRequest="32"
+                           Margin="10,0,0,0"
+                           Opacity="0.8">
+                        </Image>
+
+                        <Image Source="usuariop.png"
+                           WidthRequest="32"
+                           HeightRequest="32"
+                           Margin="10,0,0,0"
+                           Opacity="0.8">
+                        </Image>
+                    </StackLayout>
+
+
+                    <StackLayout Margin="15">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                          
+                        </Grid>
+                    </StackLayout>
+                    
+                <!--AQUI VA LA IMAGEN-->
+                <StackLayout Margin="20" VerticalOptions="Center">
+                        <StackLayout>
+                            <Image x:Name="Photo" Source="{Binding imagen}"></Image>
+                        </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                        <ImageButton Source="camara"
+                          WidthRequest="32"
+                          HeightRequest="32"
+                          Clicked="TakePhoto_Clicked"
+                          x:Name="TakePhoto">
+                        </ImageButton>
+
+                        <ImageButton Source="carpeta"
+                        WidthRequest="32"
+                        HeightRequest="32"
+                        Clicked="OnSelectPhotoClicked"></ImageButton>
+                </StackLayout>
+                </StackLayout>
+                    <Label Text="Categoría" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Picker Title="Categoría"  x:Name="categoria" Margin="0,0,0,10" >
+                        <Picker.Items>
+                           
+                        </Picker.Items>
+                    </Picker>
+
+                    <Label Text="Nombre del Producto" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingrese el nombre" x:Name="nombre" Margin="0,0,0,10"/>
+
+                    <Label Text="Cantidad disponible" TextColor="#4F4A45" FontSize="20"></Label>
+                    <Entry Placeholder="Ingrese la cantidad en stock" x:Name="stock" Margin="0,0,0,10"/>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Entry Placeholder="Valor Compra " x:Name="valorCompra" Grid.Row="0" Grid.Column="0" HorizontalOptions="CenterAndExpand" Margin="0,0,0,0" />
+                        <Entry Placeholder="Valor Venta"  x:Name="valorVenta" Grid.Row="0" Grid.Column="1" HorizontalOptions="CenterAndExpand" Margin="0,0,0,0" />
+                    </Grid>
+                    <Label Text="Descripción" TextColor="#4F4A45" FontSize="20"></Label>
+
+                    <Editor Placeholder="Ingrese la descripción del producto" x:Name="descripcion" HeightRequest="120"/>
+
+                    <Button Text="Crear" BackgroundColor="White" TextColor="Black" Margin="0,30,0,-10" Clicked="crearArtesania"
+                    HorizontalOptions="Center" VerticalOptions="Center"
+                    BorderColor="#3A3A3A" BorderWidth="2" HeightRequest="45" CornerRadius="15"  WidthRequest="250"/>
+
+                    <Button Text="Lista de productos" BackgroundColor="White" TextColor="Black" Margin="0,30,0,-10" Clicked="IrListaArtesanias"
+                            HorizontalOptions="Center" VerticalOptions="Center"
+                            BorderColor="#3A3A3A" BorderWidth="2" HeightRequest="45" CornerRadius="15"  WidthRequest="250"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
